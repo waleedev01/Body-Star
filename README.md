@@ -44,12 +44,12 @@ To get the website running locally:
 - Navigate to localhost/project/index.php in your web browser to access the website.
 
 ##Usage
-###For Users:
+For Users:
 - Visit the index.php page to start.
 - Register for an account using the register.php page.
 - Log in to access the booking system.
 - Make and manage your bookings through the booking.php page.
-###For Administrators:
+For Administrators:
 - Monitor user registrations and bookings.
 - Respond to contact inquiries received through contact.php.
 - Update the website content as needed.
