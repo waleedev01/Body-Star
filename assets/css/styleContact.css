@@ -1,0 +1,56 @@
+/*code by me*/
+.grid-container-contact{
+    display: flex;
+    flex-direction: row;
+    height:auto;
+    padding: 2vh 2vw 2vh 2vw;
+}
+/*code from me*/
+.grid-container-contact > div {
+    width:50vw;
+    height:auto;
+    padding: 2vh 2vw 2vh 2vw;
+
+    background-color: white;
+    text-align: left;
+    font-size: 18px !important;
+    line-height: 25px !important;
+    font-family: 'Roboto', sans-serif;
+    line-height: 150%;
+
+    transition: 0.35s;
+}
+/*code from me*/ 
+.grid-container-contact > map 
+{
+    position: relative;
+    padding-top: 0;
+    height: 0;
+    overflow: hidden;
+}
+/* code from https://renzobassi.wordpress.com/2020/04/11/rendere-responsive-le-mappe-di-google-maps-incorporate-nei-siti/ */
+.grid-container-contact > map > iframe {
+    position: absolute;
+    top:0;
+    left: 50%;
+    width: 50vw;
+    height: 100%;
+}
+/* code from me */
+@media screen and (max-width: 500px) {
+
+    .grid-container-contact{
+        flex-direction: column;
+    }
+
+    .grid-container-contact > div{
+        width:100%;
+ 		
+ 		font-size: 1em;
+
+        transition: 0.35s;
+    }
+    .grid-containter-contact > map{
+        width:80vw;
+    }
+}
